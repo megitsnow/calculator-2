@@ -17,6 +17,12 @@ while True:
 
         elif operator == "-":  
             print(subtract(num1, num2))
+
+        elif operator == "*":  
+            print(multiply(num1, num2))
+        
+        elif operator == "/":
+            print(divide(num1, num2))
             
     elif input_string == "q":
         break
