@@ -42,6 +42,13 @@ while True:
         elif operator =="cube":
              print(cube(num1))
 
+        elif operator =="power":
+             print(power(num1,num2))
+
+        elif operator =="remainder":
+             print(mod(num1,num2))
+             
+
             
     # elif input_string == "q":
     #     break
